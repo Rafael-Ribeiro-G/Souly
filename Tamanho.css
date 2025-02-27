@@ -1,0 +1,85 @@
+/*É o tamanho das Imagens*/
+.newlogo{
+    width: 5%;
+    margin: 5 0 0 5;
+}
+/*Estilização do header do site*/
+header{
+    background-color: black;
+}
+/*Estilizaçao do BODY do site*/
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Tahoma';
+}
+/*Estilização da DIV do header*/
+.divHeader{
+    position: relative;
+    margin: auto;
+    padding-bottom: 200px;
+}
+/*Estilização do MENU do site*/
+nav{
+    position: absolute;
+    top: 12px;
+    left: 50px;
+}
+nav a{
+    display: inline;
+    color: white;
+    font-size: 20;
+    margin-right: 30;
+}
+/*Tamanho do banner*/
+.imagem{
+    width: 100%;
+    margin-top: -100;
+}
+/*Fundo da Página*/
+.fundo{
+    margin: 0;
+    background-color: red;
+    text-align: justify;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: -1.44%;
+    color: white;
+    height: 37%;
+}
+/*Foto TESTE*/
+.foto{
+    width: 10%;
+    float: left;
+    margin: 0 20px 
+}
+.titulo{
+    color: white;
+    clear: left;
+    text-align: center;
+}
+.risco {
+    text-decoration: none;
+}
+.lugar{
+    clear: left;
+    text-align: center;
+    color: white;
+    margin-top: 0px
+}
+/*Estilização NOSSO ESTABELECIMENTO*/
+.mapaGeral {
+    padding-left: 27.5%;
+}
+.mapa{
+    text-align: center;
+    color: white;
+}
+.fund {
+    background: linear-gradient(red, white);
+    margin-top: 0%;
+}
+.meio {
+    text-align: center;
+    margin-top: 50px;
+}

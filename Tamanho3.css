@@ -1,0 +1,27 @@
+/*Fundo da Tela*/
+body{
+    background-color: black;
+    margin: 0;
+    border: 0;
+    font-family: 'Tahoma';
+}
+/*É o tamanho das Imagens*/
+.newlogo{
+    width: 4.9%;
+    border: 0;
+    margin: 5 0 0 5;
+}
+nav{
+    position: absolute;
+    top: 12px;
+    left: 50px;
+}
+nav a{
+    display: inline;
+    color: white;
+    font-size: 20;
+    margin-right: 30;
+}
+.risco {
+    text-decoration: none;
+}
