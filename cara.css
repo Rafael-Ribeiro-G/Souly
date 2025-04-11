@@ -1,0 +1,100 @@
+/*É o tamanho das Imagens*/
+.newlogo{
+    width: 5%;
+    margin: 5 0 0 5;
+}
+/*Estilização do header do site*/
+header{
+    background-color: black;
+}
+body {
+    background-color: black;
+}
+/*Estilizaçao do BODY do site*/
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Tahoma';
+}
+/*Estilização da DIV do header*/
+.divHeader{
+    position: relative;
+    margin: auto;
+    padding-bottom: 200px;
+}
+/*Estilização do MENU do site*/
+nav{
+    position: absolute;
+    top: 12px;
+    left: 50px;
+}
+nav a{
+    display: inline;
+    color: white;
+    font-size: 20;
+    margin-right: 30;
+}
+.risco {
+    text-decoration: none;
+}
+/*Estilização do RODAPÉ*/
+.logo_footer {
+    width: 5%;
+    margin-top: 100px;
+    padding-left: 85%;
+}
+footer {
+    background: linear-gradient(black, white);
+    margin-top: 0%;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px 10px 10px 0;
+}
+footer p{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+}
+footer i {
+    color: black;
+}
+/*Container dos cards*/
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+/*Estilização do card*/
+.card {
+    background-color: white;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+/*Imagens*/
+.card img {
+    width: 77%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/*Título*/
+.card h2 {
+    margin: 10px 0;
+}
+/*Preço*/
+.preco {
+    font-size: 18px;
+    font-weight: bold;
+    color: #27ae60;
+    margin: 10px 0;
+}
